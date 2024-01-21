@@ -1,0 +1,5 @@
+ma.emsi.clientservice.service.ClientServiceTest#testSave()V
+null
+ma.emsi.clientservice.bean.Client#instance-init#
+==
+save ma.emsi.clientservice.service.ClientService#save(Lma/emsi/clientservice/bean/Client;)I

@@ -1,0 +1,4 @@
+ma.emsi.salleservice.controller.SalleControllerTest#SalleController_testFindAll()V
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+==
+findAll ma.emsi.salleservice.service.SalleService#findAll()Ljava/util/List;

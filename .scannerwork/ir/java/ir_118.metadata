@@ -1,0 +1,4 @@
+ma.emsi.clientservice.controllers.ClientController#deleteAll()LResponseEntity;
+null
+==
+deleteAll ma.emsi.clientservice.service.ClientService#deleteAll()V

@@ -1,0 +1,4 @@
+ma.emsi.reservationservice.service.ReservationService#findAll()Ljava/util/List;
+==
+findSalleById ma.emsi.reservationservice.clients.SalleRestClient#findSalleById(Ljava/lang/Long;)Lma/emsi/reservationservice/model/Salle;
+findClientById ma.emsi.reservationservice.clients.ClientRestClient#findClientById(Ljava/lang/Long;)Lma/emsi/reservationservice/model/Client;

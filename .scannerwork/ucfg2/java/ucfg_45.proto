@@ -1,0 +1,62 @@
+
+Åma.emsi.salleservice.controller.CategoryController#save(Lma/emsi/salleservice/bean/Category;)Lma/emsi/salleservice/bean/Category;ö
+è/C:/Users/Imad/Desktop/Projet5IIR/Projet-Reservation-Salles/salle-service/src/main/java/ma/emsi/salleservice/controller/CategoryController.java ("startingBlock*Ë
+startingBlock (6ò
+ï
+ (
+%2"
+__annotate*+
+
+__unknown_file (
+PostMapping*J
+
+__unknown_file (.
+,
+entity"ma.emsi.salleservice.bean.Categoryò
+ï
+ (%
+%3"
+__annotate*+
+
+__unknown_file (
+RequestBody*J
+
+__unknown_file (.
+,
+entity"ma.emsi.salleservice.bean.Categoryë
+é
+/ (5,
+entity"ma.emsi.salleservice.bean.Category"__annotation*"
+
+__unknown_file (
+
+%2*"
+
+__unknown_file (
+
+%3*
+1*˘
+1   (∞
+≠
+   (2
+%0,ma.emsi.salleservice.service.CategoryService"__id*g
+
+__unknown_file (K*I4
+2ma.emsi.salleservice.controller.CategoryController"
+categoryService˛˚
+   (+(
+%1"ma.emsi.salleservice.bean.Category"{ma.emsi.salleservice.service.CategoryService#save(Lma/emsi/salleservice/bean/Category;)Lma/emsi/salleservice/bean/Category;*P
+
+__unknown_file (4
+2
+%0,ma.emsi.salleservice.service.CategoryService*J
+
+__unknown_file (.
+,
+entity"ma.emsi.salleservice.bean.Category2*save(Lma/emsi/salleservice/bean/Category;)"6
+   (,*
+(
+%1"ma.emsi.salleservice.bean.Category:8
+ (5,
+entity"ma.emsi.salleservice.bean.CategoryB64
+2ma.emsi.salleservice.controller.CategoryControllerH

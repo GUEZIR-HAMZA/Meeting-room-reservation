@@ -1,0 +1,35 @@
+
+Vma.emsi.clientservice.service.ClientService#save(Lma/emsi/clientservice/bean/Client;)Iî
+â/C:/Users/Imad/Desktop/Projet5IIR/Projet-Reservation-Salles/client-service/src/main/java/ma/emsi/clientservice/service/ClientService.java ("3*!
+2$ (%"
+ (&
+""*“
+3 (∫
+∑
+ (
+%0boolean"	__compare*"
+
+__unknown_file (
+==*I
+
+__unknown_file (-
++
+client!ma.emsi.clientservice.bean.Client*"
+
+__unknown_file (
+""*
+2
+1*∑
+1 (ì
+ê
+ ()
+%1#ma.emsi.clientservice.dao.ClientDao"__id*S
+
+__unknown_file (7*5-
++ma.emsi.clientservice.service.ClientService"
+cd"
+ (
+"":7
+ (!+
+client!ma.emsi.clientservice.bean.ClientB/-
++ma.emsi.clientservice.service.ClientServiceHX

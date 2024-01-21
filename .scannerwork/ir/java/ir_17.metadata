@@ -1,0 +1,3 @@
+ma.emsi.salleservice.controller.SalleControllerTest#testFindById()V
+==
+findById ma.emsi.salleservice.service.SalleService#findById(Ljava/lang/Long;)Lma/emsi/salleservice/bean/Salle;

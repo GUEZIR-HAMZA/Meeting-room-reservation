@@ -1,0 +1,81 @@
+version: '3'
+
+services:
+  eureka-discovery-service:
+    build:
+      context: ./eureka-discovery-service
+    ports:
+      - "8761:8761"
+    networks:
+      - my-network
+
+  gateway-service:
+    build:
+      context: ./gateway-service
+    ports:
+      - "8080:8080"
+    depends_on:
+      - eureka-discovery-service
+    networks:
+      - my-network
+
+  client-service:
+    build:
+      context: ./client-service
+    depends_on:
+      - eureka-discovery-service
+      - client-db
+    networks:
+      - my-network
+
+  client-db:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: clientdb
+      MYSQL_USER: root
+      MYSQL_PASSWORD:
+    networks:
+      - my-network
+
+  reservation-service:
+    build:
+      context: ./reservation-service
+    depends_on:
+      - eureka-discovery-service
+      - reservation-db
+    networks:
+      - my-network
+
+  reservation-db:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: reservationdb
+      MYSQL_USER: root
+      MYSQL_PASSWORD:
+    networks:
+      - my-network
+
+  salle-service:
+    build:
+      context: ./salle-service
+    depends_on:
+      - eureka-discovery-service
+      - salle-db
+    networks:
+      - my-network
+
+  salle-db:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: salle_database
+      MYSQL_USER: root
+      MYSQL_PASSWORD:
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    driver: bridge

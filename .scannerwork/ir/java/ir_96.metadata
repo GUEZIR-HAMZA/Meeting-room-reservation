@@ -1,0 +1,6 @@
+ma.emsi.clientservice.service.ClientServiceTest#testFindById()V
+null
+java.util.Optional#of(Ljava/lang/Object;)Ljava/util/Optional;
+ma.emsi.clientservice.bean.Client#instance-init#
+==
+findById ma.emsi.clientservice.service.ClientService#findById(Ljava/lang/Long;)Lma/emsi/clientservice/bean/Client;

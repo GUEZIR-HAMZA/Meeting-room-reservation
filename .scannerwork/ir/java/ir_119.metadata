@@ -1,0 +1,4 @@
+ma.emsi.clientservice.controllers.ClientController#deleteById(Ljava/lang/Long;)LResponseEntity;
+null
+==
+deleteById ma.emsi.clientservice.service.ClientService#deleteById(Ljava/lang/Long;)V
