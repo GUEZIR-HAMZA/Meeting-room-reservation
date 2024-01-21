@@ -1,0 +1,7 @@
+organization=emsikech
+projectKey=emsikech_projetreservationsalles
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.51767
+dashboardUrl=https://sonarcloud.io/dashboard?id=emsikech_projetreservationsalles
+ceTaskId=AYzRhivy4bT-Tn4kK_9P
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYzRhivy4bT-Tn4kK_9P

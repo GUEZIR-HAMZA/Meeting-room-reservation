@@ -1,0 +1,7 @@
+ma.emsi.reservationservice.repository.ReservationDaoTest#testSaveAndFindAll()V
+java.time.LocalTime#of(II)Ljava/time/LocalTime;
+java.time.LocalDate#now()Ljava/time/LocalDate;
+==
+isEmpty java.util.List#isEmpty()Z
+get java.util.List#get(I)Ljava/lang/Object;
+size java.util.List#size()I

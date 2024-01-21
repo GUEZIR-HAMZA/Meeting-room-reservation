@@ -1,0 +1,3 @@
+ma.emsi.clientservice.service.ClientServiceTest#testDeleteAll()V
+==
+deleteAll ma.emsi.clientservice.service.ClientService#deleteAll()V

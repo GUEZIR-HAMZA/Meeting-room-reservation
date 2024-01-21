@@ -1,0 +1,5 @@
+ma.emsi.clientservice.controller.ClientControllerTest#testFindById()V
+null
+ma.emsi.clientservice.bean.Client#instance-init#
+==
+findById ma.emsi.clientservice.service.ClientService#findById(Ljava/lang/Long;)Lma/emsi/clientservice/bean/Client;

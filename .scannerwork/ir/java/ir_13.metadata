@@ -1,0 +1,2 @@
+ma.emsi.clientservice.repository.ClientDaoTest#testDeleteById()V
+java.util.Optional#isPresent()Z

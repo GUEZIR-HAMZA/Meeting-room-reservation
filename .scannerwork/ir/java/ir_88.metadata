@@ -1,0 +1,4 @@
+ma.emsi.salleservice.controller.CategoryController#findById(Ljava/lang/Long;)Lma/emsi/salleservice/bean/Category;
+java.util.Optional#orElse(Ljava/lang/Object;)Ljava/lang/Object;
+==
+findById ma.emsi.salleservice.service.CategoryService#findById(Ljava/lang/Long;)Ljava/util/Optional;

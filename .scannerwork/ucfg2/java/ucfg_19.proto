@@ -1,0 +1,17 @@
+
+rma.emsi.salleservice.service.SalleService#save(Lma/emsi/salleservice/bean/Salle;)Lma/emsi/salleservice/bean/Salle;‘
+†/C:/Users/Imad/Desktop/Projet5IIR/Projet-Reservation-Salles/salle-service/src/main/java/ma/emsi/salleservice/service/SalleService.java ("1*¹
+1 (•
+’
+ ('
+%0!ma.emsi.salleservice.dao.SalleDao"__id*W
+
+__unknown_file (;*9+
+)ma.emsi.salleservice.service.SalleService"
+
+salleDao"
+ (%
+"":5
+ (")
+entityma.emsi.salleservice.bean.SalleB-+
+)ma.emsi.salleservice.service.SalleServiceH

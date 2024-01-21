@@ -1,0 +1,5 @@
+ma.emsi.salleservice.service.SalleService#findById(Ljava/lang/Long;)Lma/emsi/salleservice/bean/Salle;
+java.util.Optional#isPresent()Z
+java.lang.Exception#<init>(Ljava/lang/String;)V
+java.util.Optional#get()Ljava/lang/Object;
+java.lang.Exception#instance-init#

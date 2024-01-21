@@ -1,0 +1,6 @@
+ma.emsi.clientservice.controller.ClientControllerTest#testFindAll()V
+null
+ma.emsi.clientservice.bean.Client#instance-init#
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+==
+findAll ma.emsi.clientservice.service.ClientService#findAll()Ljava/util/List;

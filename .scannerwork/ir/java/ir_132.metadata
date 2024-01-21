@@ -1,0 +1,4 @@
+ma.emsi.salleservice.controller.SalleController#save(Lma/emsi/salleservice/bean/Salle;)LResponseEntity;
+null
+==
+save ma.emsi.salleservice.service.SalleService#save(Lma/emsi/salleservice/bean/Salle;)Lma/emsi/salleservice/bean/Salle;

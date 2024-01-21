@@ -1,0 +1,76 @@
+version: '3'
+
+services:
+  reservation-mysql:
+    image: mysql:5.7
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: reservationdb
+      MYSQL_USER: root
+      MYSQL_PASSWORD:
+    volumes:
+      - ./mysql-data:/var/lib/mysql
+
+  salle-mysql:
+    image: mysql:5.7
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: salledb
+      MYSQL_USER: root
+      MYSQL_PASSWORD:
+    volumes:
+      - ./mysql-data:/var/lib/mysql
+
+  client-mysql:
+    image: mysql:5.7
+    ports:
+      - "3308:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: clientdb
+      MYSQL_USER: root
+      MYSQL_PASSWORD:
+    volumes:
+      - ./mysql-data:/var/lib/mysql
+
+  eureka-server:
+    build:
+      context: ./eureka-discovery-service
+    ports:
+      - "8761:8761"
+
+  gateway-service:
+    build:
+      context: ./gateway-service
+    ports:
+      - "8888:8888"
+    depends_on:
+      - eureka-server
+
+  client-service:
+    build:
+      context: ./client-service
+    ports:
+      - "8081:8081"
+    depends_on:
+      - eureka-server
+
+  reservation-service:
+    build:
+      context: ./reservation-service
+    ports:
+      - "8083:8083"
+    depends_on:
+      - eureka-server
+
+  salle-service:
+    build:
+      context: ./salle-service
+    ports:
+      - "8082:8082"
+    depends_on:
+      - eureka-server

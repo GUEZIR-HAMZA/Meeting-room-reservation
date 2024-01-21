@@ -1,0 +1,8 @@
+ma.emsi.reservationservice.service.ReservationService#findById(Ljava/lang/Long;)Lma/emsi/reservationservice/bean/Reservation;
+java.util.Optional#isPresent()Z
+java.lang.Exception#<init>(Ljava/lang/String;)V
+java.util.Optional#get()Ljava/lang/Object;
+java.lang.Exception#instance-init#
+==
+findSalleById ma.emsi.reservationservice.clients.SalleRestClient#findSalleById(Ljava/lang/Long;)Lma/emsi/reservationservice/model/Salle;
+findClientById ma.emsi.reservationservice.clients.ClientRestClient#findClientById(Ljava/lang/Long;)Lma/emsi/reservationservice/model/Client;

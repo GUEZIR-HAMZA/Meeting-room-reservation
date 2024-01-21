@@ -1,0 +1,8 @@
+FROM ubuntu:latest
+LABEL authors="guezi"
+
+FROM openjdk:11-jre-slim
+ARG JAR_FILE=target/gateway-service-0.0.1-SNAPSHOT.jar
+COPY ${JAR_FILE} app.jar
+ENTRYPOINT ["java", "-jar", "/app.jar"]
+
