@@ -63,7 +63,9 @@ La conteneurisation est réalisée à l'aide de Docker, qui encapsule chaque mic
 ### 4.1 Implémentation et avantages
 
 Chaque service contient un `Dockerfile` qui décrit les étapes pour créer une image Docker, qui peut ensuite être exécutée de manière isolée. Les avantages incluent la facilité de déploiement, la gestion des dépendances et la scalabilité.
-![Docker Images](https://private-user-images.githubusercontent.com/95761219/298387908-7732e25e-950b-4f7b-9989-65c031248a91.png?)
+
+![Docker Images](https://github.com/GUEZIR-HAMZA/Meeting-room-reservation/assets/95761219/ec88a980-28c6-4410-9166-ff02282910e1)
+
 
 - **client-service**: [Docker Hub Link](https://hub.docker.com/r/your-username/client-service)
 - **eureka-discovery-service**: [Docker Hub Link](https://hub.docker.com/r/your-username/eureka-discovery-service)
