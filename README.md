@@ -95,7 +95,6 @@ La configuration de SonarQube est définie dans les fichiers `sonar-project.prop
 Le projet de réservation de salles de réunion illustre l'efficacité de l'architecture microservices dans un contexte d'entreprise. Nous envisageons d'ajouter des fonctionnalités d'intelligence artificielle pour des recommandations de salles et d'optimiser davantage les performances à l'aide de caches distribués.
 
 ---
-
 Pour démarrer avec le projet, veuillez suivre les instructions de mise en place et d'exécution fournies dans le `README` de chaque microservice.
 
 Nous vous souhaitons un codage productif et satisfaisant ! 🚀
